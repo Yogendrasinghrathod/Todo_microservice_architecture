@@ -56,6 +56,12 @@ typings/
 
 # dotenv environment variables file
 .env
+docker-compose.env
+*.env
+
+# Database files
+*.db
+data/*.db
 
 # next.js build output
 .next
